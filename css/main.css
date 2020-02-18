@@ -1686,7 +1686,7 @@ textarea.w-select {
 	position: absolute
 }
 
-.timeline .sppb-icon:after {
+/* .timeline .sppb-icon:after {
 	content: '';
 	border: 15px solid transparent;
 	border-left: 15px solid #DBDBDB;
@@ -1694,7 +1694,7 @@ textarea.w-select {
 	position: absolute;
 	top: 50%;
 	margin-top: -15px
-}
+} */
 
 .timeline .last .sppb-icon:after {
 	border: none
@@ -1857,10 +1857,10 @@ textarea.w-select {
 }
 
 
-.row {
+/* .row {
 	margin-left: -15px;
 	margin-right: -15px
-}
+} */
 .row:before{
 	content: " ";
     display: table;
