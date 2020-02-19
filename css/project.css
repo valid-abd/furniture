@@ -226,10 +226,11 @@ body {
 
 .paragraph-3 {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 40px;
   font-family: Ubuntu, Helvetica, sans-serif;
   color: #2e2d2d;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .container {
