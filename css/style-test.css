@@ -1,0 +1,179 @@
+.photo{
+	padding: 50px 0;
+	background-color: #fff;	
+}
+
+.photo-buttom{
+	display: flex;
+	justify-content: center;
+}
+.photo-heading{
+	font-size: 25px;
+	margin: 0;
+}
+
+.photo-description {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.photo-album{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	/* padding: 25px 0; */
+}
+
+.photo-album_color{
+	width: 200px;
+	height: 200px;
+	/* background-color: #424242; */
+	margin: 15px 10px;
+	transition: .3s;
+}
+.photo-album_color:hover{
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+.photo-album_color-test {
+	width: 200px;
+	height: 200px;
+	/* background-color: #793e3e; */
+	margin: 15px 10px;
+	transition: .3s;
+}
+.photo-album_color-test:hover{
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+#photo{
+	display: none;
+}
+
+#mybtm-off{
+	display: none;
+}
+
+.photo-test-1{
+	background-image: url("../images/photo/work (26).jpg");
+	background-size: cover;
+	background-position: center;
+}
+.photo-test-2 {
+	background-image: url("../images/photo/work (27).jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.photo-test-3 {
+	background-image: url("../images/photo/work (28).jpg");background-size: cover;background-position: center;}
+.photo-test-4 {background-image: url("../images/photo/work (29).jpg");background-size: cover;background-position: center;}
+.photo-test-5 {background-image: url("../images/photo/work (30).jpg");background-size: cover;background-position: center;}
+.photo-test-6 {background-image: url("../images/photo/work (31).jpg");background-size: cover;background-position: center;}
+.photo-test-7 {background-image: url("../images/photo/work (32).jpg");background-size: cover;background-position: center;}
+.photo-test-8 {background-image: url("../images/photo/work (33).jpg");background-size: cover;background-position: center;}
+.photo-test-9 {background-image: url("../images/photo/work (34).jpg");background-size: cover;background-position: center;}
+.photo-test-10 {background-image: url("../images/photo/work (35).jpg");background-size: cover;background-position: center;}
+
+.photo-test-11 {background-image: url("../images/photo/work (36).jpg");background-size: cover;background-position: center;}
+.photo-test-12 {background-image: url("../images/photo/work (37).jpg");background-size: cover;background-position: center;}
+.photo-test-13 {background-image: url("../images/photo/work (38).jpg");background-size: cover;background-position: center;}
+.photo-test-14 {background-image: url("../images/photo/work (39).jpg");background-size: cover;background-position: center;}
+.photo-test-15 {background-image: url("../images/photo/work (40).jpg");background-size: cover;background-position: center;}
+.photo-test-16 {background-image: url("../images/photo/work (41).jpg");background-size: cover;background-position: center;}
+.photo-test-17 {background-image: url("../images/photo/work (42).jpg");background-size: cover;background-position: center;}
+.photo-test-18 {background-image: url("../images/photo/work (43).jpg");background-size: cover;background-position: center;}
+.photo-test-19 {background-image: url("../images/photo/work (44).jpg");background-size: cover;background-position: center;}
+.photo-test-20 {background-image: url("../images/photo/work (45).jpg");background-size: cover;background-position: center;}
+
+.photo-test-21 {background-image: url("../images/photo/work (81).jpg");background-size: cover;background-position: center;}
+.photo-test-22 {background-image: url("../images/photo/work (82).jpg");background-size: cover;background-position: center;}
+.photo-test-23 {background-image: url("../images/photo/work (83).jpg");background-size: cover;background-position: center;}
+.photo-test-24 {background-image: url("../images/photo/work (84).jpg");background-size: cover;background-position: center;}
+.photo-test-25 {background-image: url("../images/photo/work (85).jpg");background-size: cover;background-position: center;}
+.photo-test-26 {background-image: url("../images/photo/work (86).jpg");background-size: cover;background-position: center;}
+.photo-test-27 {background-image: url("../images/photo/work (87).jpg");background-size: cover;background-position: center;}
+.photo-test-28 {background-image: url("../images/photo/work (88).jpg");background-size: cover;background-position: center;}
+.photo-test-29 {background-image: url("../images/photo/work (89).jpg");background-size: cover;background-position: center;}
+.photo-test-30 {background-image: url("../images/photo/work (46).jpg");background-size: cover;background-position: center;}
+
+.photo-test-31 {background-image: url("../images/photo/work (47).jpg");background-size: cover;background-position: center;}
+.photo-test-32 {background-image: url("../images/photo/work (48).jpg");background-size: cover;background-position: center;}
+.photo-test-33 {background-image: url("../images/photo/work (49).jpg");background-size: cover;background-position: center;}
+.photo-test-34 {background-image: url("../images/photo/work (50).jpg");background-size: cover;background-position: center;}
+.photo-test-35 {background-image: url("../images/photo/work (51).jpg");background-size: cover;background-position: center;}
+.photo-test-36 {background-image: url("../images/photo/work (52).jpg");background-size: cover;background-position: center;}
+.photo-test-37 {background-image: url("../images/photo/work (53).jpg");background-size: cover;background-position: center;}
+.photo-test-38 {background-image: url("../images/photo/work (54).jpg");background-size: cover;background-position: center;}
+.photo-test-39 {background-image: url("../images/photo/work (55).jpg");background-size: cover;background-position: center;}
+.photo-test-40 {background-image: url("../images/photo/work (56).jpg");background-size: cover;background-position: center;}
+
+.photo-test-41 {background-image: url("../images/photo/work (57).jpg");background-size: cover;background-position: center;}
+.photo-test-42 {background-image: url("../images/photo/work (58).jpg");background-size: cover;background-position: center;}
+.photo-test-43 {background-image: url("../images/photo/work (59).jpg");background-size: cover;background-position: center;}
+.photo-test-44 {background-image: url("../images/photo/work (60).jpg");background-size: cover;background-position: center;}
+.photo-test-45 {background-image: url("../images/photo/work (61).jpg");background-size: cover;background-position: center;}
+.photo-test-46 {background-image: url("../images/photo/work (62).jpg");background-size: cover;background-position: center;}
+.photo-test-47 {background-image: url("../images/photo/work (63).jpg");background-size: cover;background-position: center;}
+.photo-test-48 {background-image: url("../images/photo/work (64).jpg");background-size: cover;background-position: center;}
+.photo-test-49 {background-image: url("../images/photo/work (65).jpg");background-size: cover;background-position: center;}
+.photo-test-50 {background-image: url("../images/photo/work (66).jpg");background-size: cover;background-position: center;}
+
+.photo-test-51 {background-image: url("../images/photo/work (67).jpg");background-size: cover;background-position: center;}
+.photo-test-52 {background-image: url("../images/photo/work (68).jpg");background-size: cover;background-position: center;}
+.photo-test-53 {background-image: url("../images/photo/work (69).jpg");background-size: cover;background-position: center;}
+.photo-test-54 {background-image: url("../images/photo/work (70).jpg");background-size: cover;background-position: center;}
+.photo-test-55 {background-image: url("../images/photo/work (71).jpg");background-size: cover;background-position: center;}
+.photo-test-56 {background-image: url("../images/photo/work (72).jpg");background-size: cover;background-position: center;}
+.photo-test-57 {background-image: url("../images/photo/work (73).jpg");background-size: cover;background-position: center;}
+.photo-test-58 {background-image: url("../images/photo/work (74).jpg");background-size: cover;background-position: center;}
+.photo-test-59 {background-image: url("../images/photo/work (75).jpg");background-size: cover;background-position: center;}
+.photo-test-60 {background-image: url("../images/photo/work (76).jpg");background-size: cover;background-position: center;}
+
+.photo-test-61 {background-image: url("../images/photo/work (77).jpg");background-size: cover;background-position: center;}
+.photo-test-62 {background-image: url("../images/photo/work (78).jpg");background-size: cover;background-position: center;}
+.photo-test-63 {background-image: url("../images/photo/work (79).jpg");background-size: cover;background-position: center;}
+.photo-test-64 {background-image: url("../images/photo/work (80).jpg");background-size: cover;background-position: center;}
+.photo-test-65 {background-image: url("../images/photo/work (90).jpg");background-size: cover;background-position: center;}
+.photo-test-66 {background-image: url("../images/photo/work (91).jpg");background-size: cover;background-position: center;}
+.photo-test-67 {background-image: url("../images/photo/work (92).jpg");background-size: cover;background-position: center;}
+.photo-test-68 {background-image: url("../images/photo/work (93).jpg");background-size: cover;background-position: center;}
+.photo-test-69 {background-image: url("../images/photo/work (94).jpg");background-size: cover;background-position: center;}
+.photo-test-70 {background-image: url("../images/photo/work (95).jpg");background-size: cover;background-position: center;}
+
+.photo-test-71 {background-image: url("../images/photo/work (96).jpg");background-size: cover;background-position: center;}
+.photo-test-72 {background-image: url("../images/photo/work (97).jpg");background-size: cover;background-position: center;}
+.photo-test-73 {background-image: url("../images/photo/work (98).jpg");background-size: cover;background-position: center;}
+.photo-test-74 {background-image: url("../images/photo/work (99).jpg");background-size: cover;background-position: center;}
+.photo-test-75 {background-image: url("../images/photo/work (100).jpg");background-size: cover;background-position: center;}
+
+.photo-test-76 {background-image: url("../images/photo/work (101).jpg");background-size: cover;background-position: center;}
+.photo-test-77 {background-image: url("../images/photo/work (102).jpg");background-size: cover;background-position: center;}
+.photo-test-78 {background-image: url("../images/photo/work (103).jpg");background-size: cover;background-position: center;}
+.photo-test-79 {background-image: url("../images/photo/work (104).jpg");background-size: cover;background-position: center;}
+.photo-test-80 {background-image: url("../images/photo/work (105).jpg");background-size: cover;background-position: center;}
+.photo-test-81 {background-image: url("../images/photo/work (106).jpg");background-size: cover;background-position: center;}
+.photo-test-82 {background-image: url("../images/photo/work (107).jpg");background-size: cover;background-position: center;}
+.logo-desr {
+	margin: 20% 0px 0px 0px;
+}
+
+@media (max-width:515px){
+
+		.photo-album_color {
+		width: 160px;
+		height: 160px;
+		/* background-color: #793e3e; */
+		margin: 15px 10px;
+	}
+	.photo-album_color-test {
+		width: 160px;
+		height: 160px;
+		/* background-color: #793e3e; */
+		margin: 15px 10px;
+	}
+
+}
